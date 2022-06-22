@@ -1,0 +1,22 @@
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+
+  background-color: red;
+}
+
+.isActive {
+  composes: status;
+  background-color: green;
+}
+
+.isUnactive {
+  composes: status;
+  background-color: red;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
